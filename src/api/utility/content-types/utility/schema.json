@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "utilities",
+  "info": {
+    "singularName": "utility",
+    "pluralName": "utilities",
+    "displayName": "Utility"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

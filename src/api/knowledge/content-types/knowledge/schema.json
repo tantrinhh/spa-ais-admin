@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "knowledges",
+  "info": {
+    "singularName": "knowledge",
+    "pluralName": "knowledges",
+    "displayName": "Knowledge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

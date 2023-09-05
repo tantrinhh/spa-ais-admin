@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "report_problems",
+  "info": {
+    "singularName": "report-problem",
+    "pluralName": "report-problems",
+    "displayName": "Report problem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}

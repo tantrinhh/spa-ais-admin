@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_mains",
+  "info": {
+    "singularName": "news-main",
+    "pluralName": "news-mains",
+    "displayName": "News main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "may": {
+      "type": "text"
+    },
+    "url": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gci_mains",
+  "info": {
+    "singularName": "gci-main",
+    "pluralName": "gci-mains",
+    "displayName": "GCIMain",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
